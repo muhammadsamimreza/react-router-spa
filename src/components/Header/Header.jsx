@@ -5,7 +5,7 @@ const Header = () => {
     return (
         <div>
             <h1> This is our Header</h1>
-            <nav style={{display: "flex", gap: "20px", justifyContent: "center",textDecoration: "none"}}>
+            <nav style={{display: "flex", gap: "10px", justifyContent: "center",textDecoration: "none"}}>
                 <NavLink to='/'>Home</NavLink>
                 <NavLink to='/mobiles'>Mobiles</NavLink>
                 <NavLink to='/laptops'>Laptops</NavLink>
